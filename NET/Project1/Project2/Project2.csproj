@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C929F24A-CA62-4FC4-B8D9-98408A923007}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Project2</RootNamespace>
+    <AssemblyName>Project2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AAA.cs" />
+    <Compile Include="AbstractBase.cs" />
+    <Compile Include="BirthdayInfo.cs" />
+    <Compile Include="CallByReference.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Child.cs" />
+    <Compile Include="ClimateMontor.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="ConsoleLogger.cs" />
+    <Compile Include="Derived.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="EngancedInteger.cs" />
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="GasolineCar.cs" />
+    <Compile Include="Human.cs" />
+    <Compile Include="HybridCar.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="INameValue.cs" />
+    <Compile Include="Main01.cs" />
+    <Compile Include="Main02.cs" />
+    <Compile Include="Main03.cs" />
+    <Compile Include="Main04.cs" />
+    <Compile Include="Main05.cs" />
+    <Compile Include="Main06.cs" />
+    <Compile Include="Main07.cs" />
+    <Compile Include="Main08.cs" />
+    <Compile Include="Main09.cs" />
+    <Compile Include="Main10.cs" />
+    <Compile Include="Main12.cs" />
+    <Compile Include="Main14.cs" />
+    <Compile Include="Mammal.cs" />
+    <Compile Include="NamedValue.cs" />
+    <Compile Include="Parent.cs" />
+    <Compile Include="product.cs" />
+    <Compile Include="Main11.cs" />
+    <Compile Include="Product1.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
