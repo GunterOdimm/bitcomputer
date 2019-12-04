@@ -1,0 +1,6 @@
+D:\Gunterohdim\Source\NET\Project1\Project3\bin\Debug\Project3.exe.config
+D:\Gunterohdim\Source\NET\Project1\Project3\bin\Debug\Project3.exe
+D:\Gunterohdim\Source\NET\Project1\Project3\bin\Debug\Project3.pdb
+D:\Gunterohdim\Source\NET\Project1\Project3\obj\Debug\Project3.csprojAssemblyReference.cache
+D:\Gunterohdim\Source\NET\Project1\Project3\obj\Debug\Project3.exe
+D:\Gunterohdim\Source\NET\Project1\Project3\obj\Debug\Project3.pdb
